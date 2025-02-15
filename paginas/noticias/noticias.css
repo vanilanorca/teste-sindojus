@@ -90,3 +90,17 @@ ul li{
         padding: 12px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .information{
+        padding: 40px 20px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
