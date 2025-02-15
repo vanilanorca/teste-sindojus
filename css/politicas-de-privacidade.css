@@ -1,0 +1,83 @@
+.banner{
+    height: 300px;
+    margin: 0 auto;
+    background:linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.26)), url(../assets/banner-home.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 8px;
+}
+
+.banner h2{
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0;
+}
+
+.information{
+    background: #eee;
+    padding: 40px;
+}
+
+p, ul, h2, h3, h4, h5{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.information h1{
+    text-align: center;
+    color: #2483C2;
+    margin-top: 80px;
+}
+
+.information h2{
+    color: #2483C2;
+    margin-bottom: 12px;
+}
+
+.information h3{
+    color: #2483C2;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.information p{
+    margin-bottom: 40px;
+}
+
+.information ul li{
+    margin-top: 15px;
+}
+
+.information section{
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1300px) {
+    .banner{
+        height: 200px;
+        margin: 0 auto;
+        background-size: cover;
+        position: relative;
+        border-radius: 8px;
+    }
+    
+    .banner h2{
+        color: #FFFFFF;
+        padding: 20px 20px;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    .banner a{
+        right: 20px;
+        bottom: 20px;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 12px;
+    }
+}

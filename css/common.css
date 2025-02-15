@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/bg-pattern.png);
+}
+
+.container{
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 40px 20px;
+    background: #eee;
+}
+
+header img{
+    width: 100%;
+    max-width: 200px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0;
+}
+
+header ul li{
+    list-style: none;
+    border-radius: 8px;
+}
+
+header ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #2483C2;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 0 5px;
+    transition: all 0.2s;
+}
+
+.localizacao{
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.localizacao div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.localizacao img{
+    width: 80%;
+    max-width: 400px;
+}
+
+.localizacao div div h3{
+    color: #1D6494;
+    margin-top: 15px;
+}
+.localizacao div div p{
+    margin: 10px 0;
+    text-align: left;
+}
+
+.localizacao iframe{
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #00000031;
+}
+
+@media screen and (max-width: 1300px) {
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    header ul{
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    
+    header ul li{
+        list-style: none;
+        border-radius: 8px;
+    }
+    
+    header ul li a{
+        font-size: 14px;
+        text-align: center;
+        /* width: 100px; */
+        max-width: 100%;
+        box-shadow: 5px 5px 10px #00000031;
+        padding: 5px 0;
+    }
+
+    .localizacao{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .localizacao iframe{
+        max-width: 80%;
+        height: 300px;
+    }
+    
+    .localizacao div div h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .localizacao div div p{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    
+}

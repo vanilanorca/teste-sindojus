@@ -1,0 +1,103 @@
+.banner{
+    height: 400px;
+    margin: 0 auto;
+    background:linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.26)), url(../assets/banner-home.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 8px;
+}
+
+.banner h2{
+    color: #FFFFFF;
+    padding: 40px 50px;
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0;
+}
+
+.banner a{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background: #2483C2;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    box-shadow: 5px 5px 10px #00000065;
+}
+.banner a:hover{
+    background: #1d6494;
+}
+
+.cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards a{
+    background-position: center left;
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    position: relative;
+    transition: all .5s;
+}
+
+.cards a:nth-child(1){ background:linear-gradient(0deg, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url(../assets/historia.jpg); background-size: cover;}
+.cards a:nth-child(2){ background:linear-gradient(0deg, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url(../assets/fale-conosco.jpg); background-size: cover;}
+.cards a:nth-child(3){ background:linear-gradient(0deg, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url(../assets/politicas-de-privacidade.jpg); background-size: cover;}
+
+.cards a:nth-child(1):hover{ background:linear-gradient(0deg, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url(../assets/historia.jpg); background-size: cover; background-position: center center;}
+.cards a:nth-child(2):hover{ background:linear-gradient(0deg, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url(../assets/fale-conosco.jpg); background-size: cover; background-position: center center;}
+.cards a:nth-child(3):hover{ background:linear-gradient(0deg, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url(../assets/politicas-de-privacidade.jpg); background-size: cover; background-position: center center;}
+
+.cards a p{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1300px) {
+    .banner{
+        height: 200px;
+        margin: 0 auto;
+        background-size: cover;
+        position: relative;
+        border-radius: 8px;
+    }
+    
+    .banner h2{
+        color: #FFFFFF;
+        padding: 20px 20px;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    .banner a{
+        right: 20px;
+        bottom: 20px;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 12px;
+    }
+
+    .cards{
+        margin-top: 30px;
+    }
+    
+    .cards a{
+        width: 30%;
+        height: 180px;
+        border-radius: 12px;
+    }
+
+    .cards a p{
+        font-size: 14px;
+    }
+}
