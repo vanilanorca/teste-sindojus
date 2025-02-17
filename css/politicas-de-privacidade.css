@@ -1,3 +1,7 @@
+body{
+    text-align: justify;
+}
+
 .banner{
     height: 300px;
     margin: 0 auto;
@@ -49,7 +53,7 @@ p, ul, h2, h3, h4, h5{
 }
 
 .information ul li{
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .information section{
@@ -79,5 +83,9 @@ p, ul, h2, h3, h4, h5{
         font-size: 14px;
         text-decoration: none;
         padding: 12px;
+    }
+
+    ul{
+        padding: 0;
     }
 }
